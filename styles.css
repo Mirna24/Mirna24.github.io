@@ -695,11 +695,13 @@ footer {
   content: "▶"; /* ▶ für den nächsten Pfeil, ◀ für den vorherigen Pfeil */
   font-size: 14px; /* Ändere die Schriftgröße der Pfeile */
   color: black;
+  margin-left: 3px;
 }
 .feedback .prev::after {
   content: "◀";
   font-size: 14px;
   color: black;
+  margin-right: 3px;
 }
 
 .feedback .next:active,
@@ -921,7 +923,7 @@ footer {
   }
 
   .close {
-    right: 10px;
+    right: 10gpx;
     top: 20px;
   }
   .overlay {
@@ -958,6 +960,19 @@ footer {
 
 /* Media query für Tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
+  .black-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    align-content: center; /* Füge diese Zeile hinzu, um den Float zu entfernen */
+  }
+  .header-text h1 {
+    display: none;
+  }
   .full-width-image .image {
     background-position: 35% top;
   }
