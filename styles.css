@@ -871,10 +871,14 @@ footer {
 }  */
 
   .centered-image-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     position: relative;
+  }
+
+  .centered-image-container:has(.third-image) {
+    margin-top: 30px;
   }
 
   .centered-image {
@@ -957,7 +961,7 @@ footer {
     margin-left: 0;
   }
 }
-
+30px
 /* Media query für Tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
   .black-header img {
