@@ -972,9 +972,8 @@ footer {
     margin-left: 0;
   }
 }
-30px
 /* Media query für Tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1025px) {
   .black-header img {
     max-width: 100%;
     height: auto;
