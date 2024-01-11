@@ -957,7 +957,7 @@ footer {
 }
 
 /* Media query für Tablets */
-@media screen and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   .full-width-image .image {
     background-position: 35% top;
   }
