@@ -544,8 +544,11 @@ footer {
   margin-left: 20px;
   margin-bottom: 40px;
 }
-<a style="color: white;" href="https://playground.com/canvas/untitled-d0quzi4vwy333ih2eqb3jl31z">BilderQuellen</a>
-	
+.weißer-link {
+    color: white;
+ 
+}
+
 
 .first-footer-text {
   color: white;
